@@ -17,15 +17,19 @@ const Contact = () => {
                         <p>{ text }</p>
                     </div>
                     <div className="col-md-6 mb-3">
-                    <form>
+                    {
+                    // /success redireciona para a pagina de sucesso apos o submit
+                    /* <form name="contact" method="POST" data-netlify="true" action="/sucess"> */}
+                    <form name="contact" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact" />
                         <div className="form-group">
-                            <input type="text" className="form-control" id="exampleInputName" placeholder="Name" />
+                            <input name="name" type="text" className="form-control" id="exampleInputName" placeholder="Name" />
                         </div>
                         <div className="form-group">
-                            <input type="email" className="form-control" id="exampleInputEmail" placeholder="E-mail" />
+                            <input name="email" type="email" className="form-control" id="exampleInputEmail" placeholder="E-mail" />
                         </div>
                         <div className="form-group">
-                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Textarea"></textarea>
+                            <textarea name="message" className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Textarea"></textarea>
                         </div>
                         <button type="submit" className="btn btn-success">Submit</button>
                     </form>
