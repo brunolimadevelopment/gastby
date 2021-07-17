@@ -1,0 +1,27 @@
+{
+
+    // https://docs.forem.com/api/#section/Authentication
+    // https://dev.to/videos
+                
+    /* 
+        extensao: https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
+        
+        trabalhando com imagem: https://using-gatsby-image.gatsbyjs.org/traced-svg/
+
+        na hora de add uma imagem com o gatsby ele cria automaticamente imagens para cada tam.
+        de dispositivo e resolução de tela
+      
+      Component do bootstrap, para funcionar precisa do jquery e do popper.js
+      Não é recomendado pois precisa carregar todo o js afetando a performance.
+      Recomenda-se utilizar o React-bootstrap
+
+    <div className="dropdown">
+        <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown button
+        </button>
+        <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a className="dropdown-item" href="#">Action</a></li>
+            <li><a className="dropdown-item" href="#">Another action</a></li>
+            <li><a className="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div> */}

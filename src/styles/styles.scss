@@ -1,0 +1,11 @@
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "gatsby-dark": #542c85,
+  "gatsby":      #9963BA,
+  "gatsby-light":#C9ABDB,
+  "gray-dark":   #272c30,
+  "gray":        #c8c8c8
+) !default;
+// scss-docs-end theme-colors-map
+
+@import '~bootstrap/scss/bootstrap.scss';
